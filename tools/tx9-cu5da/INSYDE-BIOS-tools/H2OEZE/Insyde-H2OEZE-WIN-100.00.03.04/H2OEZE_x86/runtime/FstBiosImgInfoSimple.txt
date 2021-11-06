@@ -1,0 +1,15 @@
+[BIOS Image]
+C:\Users\danlo\Documents\Bios Modification\Matebook\bios\bios.rom
+
+[Log]
+C:\Users\danlo\Documents\Bios Modification\Tools\InsydeH2O Tools\H2OEZE_x86\runtime\FstBiosImgInfoSimple.txt
+
+ FD   size:         8192k
+ FV00 size:         3744k  
+ FV00 freespace:    1162k  
+ FV01 size:         320k  (NvStorage)
+ FV01 freespace:    240k  (NvStorage)
+ Compiler version:  1600 (VC 10.0)
+ Bios image version:  1.12
+
+

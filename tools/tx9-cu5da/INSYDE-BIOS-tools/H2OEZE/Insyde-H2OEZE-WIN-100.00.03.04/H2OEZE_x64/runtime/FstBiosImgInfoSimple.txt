@@ -1,0 +1,18 @@
+[BIOS Image]
+C:\Users\ZKL\Desktop\‘”∆ﬂ‘”∞À\BIOSœ‡πÿ\BIOS\ing.bin
+
+[Log]
+C:\Users\ZKL\Desktop\‘”∆ﬂ‘”∞À\BIOSœ‡πÿ\INSYDE-BIOS-tools\H2OEZE\Insyde-H2OEZE-WIN-100.00.03.04\H2OEZE_x64\runtime\FstBiosImgInfoSimple.txt
+
+ FD   size:         6144k
+ FV00 size:         3044k  
+ FV00 freespace:    118k  
+ FV01 size:         344k  (NvStorage)
+ FV01 freespace:    193k  (NvStorage)
+ FV02 size:         1344k  
+ FV02 freespace:    291k  
+ Microcode size:    384k
+ Compiler version:  1900 (Œ¥∂®)
+ Bios image version:  4MCN33WW(V2.05)
+
+

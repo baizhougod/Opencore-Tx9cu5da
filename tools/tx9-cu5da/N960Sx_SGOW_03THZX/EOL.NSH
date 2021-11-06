@@ -1,0 +1,2 @@
+Fpt.efi -closemnf -y
+

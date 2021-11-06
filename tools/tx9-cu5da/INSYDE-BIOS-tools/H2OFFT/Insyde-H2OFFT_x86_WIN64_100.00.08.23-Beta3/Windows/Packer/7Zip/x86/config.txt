@@ -1,0 +1,7 @@
+;!@Install@!UTF-8!
+;Title="test insydeflash"
+;BeginPrompt="Do you want to install the insydeflash?"
+;InstallPath="."
+RunProgram="InsydeFlash.exe"
+;ExecuteFile="InsydeFlash.exe"
+;!@InstallEnd@!

@@ -1,0 +1,168 @@
+Purpose:
+    Embed BIOS, platform.ini (and optinal EC) to an UEFI executable, and sign it.
+
+Version (SEG) 100.00.02.06
+================================================================================
+iEFIFlashSigner Version (SEG) 100.00.01.10
+SMP             Version (SEG) 100.00.09.00
+--------------------------------------------------------------------------------
+[SMP]
+1. Support Capsule Update Progress bar
+2. Support DDT Flash update
+
+Version (SEG) 100.00.02.05
+================================================================================
+iEFIFlashSigner Version (SEG) 100.00.01.10
+SMP             Version (SEG) 100.00.08.11
+--------------------------------------------------------------------------------
+[SMP]
+1. Support SecureFlashPlatformIniSetting flag.
+
+[iEFIFlashSigner]
+1. Support oem sign function.
+
+
+Version (SEG) 100.00.02.04
+================================================================================
+iEFIFlashSigner Version (SEG) 100.00.01.09
+SMP             Version (SEG) 100.00.08.10
+--------------------------------------------------------------------------------
+[SMP]
+1. Support Reserve Dmi Data.
+
+Version (SEG) 100.00.02.03         
+================================================================================
+iEFIFlashSigner Version (SEG) 100.00.01.09
+SMP             Version (SEG) 100.00.08.09
+--------------------------------------------------------------------------------
+[SMP]
+1. Fix free memory assert issue.
+
+Version (SEG) 100.00.02.02
+================================================================================
+iEFIFlashSigner Version (SEG) 100.00.01.09
+SMP             Version (SEG) 100.00.08.08
+--------------------------------------------------------------------------------
+[SMP]
+1. Fix region check error issue.
+2. Support OemCompleteAction feature.
+
+Version (SEG) 100.00.02.01
+================================================================================
+iEFIFlashSigner Version (SEG) 100.00.01.09
+SMP             Version (SEG) 100.00.08.07
+--------------------------------------------------------------------------------
+[iEFIFlashSigner]
+1. Fix the error that signing PFAT not work.
+
+
+Version (SEG) 100.00.02.00
+================================================================================
+iEFIFlashSigner Version (SEG) 100.00.01.08
+SMP             Version (SEG) 100.00.08.07
+--------------------------------------------------------------------------------
+[iEFIFlashSigner]
+1. Make it to show as default when invoking signtool.exe.
+2. Update release note (this file) format to show separate information for iEFIFlashSigner and SMP.
+[SMP]
+1. Fix secure flash load platform.ini assert problem.
+
+
+--------------------------------------------------------------------------------
+Release Version (SEG) 100.00.01.07
+SMP     Version (SEG) 100.00.08.06
+--------------------------------------------------------------------------------
+1. [SMP]  fix secure flash load platform.ini assert problem.
+2. [SMP]  support IPMI BMC Flash Update.
+
+--------------------------------------------------------------------------------
+Release Version (SEG) 100.00.01.07
+SMP     Version (SEG) 100.00.08.05
+--------------------------------------------------------------------------------
+1. [SMP]  fix DirectFlash hangup issue
+2. [SMP]  add skip platform region check in platform.ini.
+3. [SMP]  fix flash fail but return wrong status issue
+
+--------------------------------------------------------------------------------
+Release Version (SEG) 100.00.01.07
+SMP     Version (SEG) 100.00.08.04
+--------------------------------------------------------------------------------
+1. Update SMP 100.00.08.04
+
+--------------------------------------------------------------------------------
+Release Version (SEG) 100.00.01.07
+SMP     Version (SEG) 100.00.08.01
+--------------------------------------------------------------------------------
+1. Update SMP 100.00.08.00
+
+--------------------------------------------------------------------------------
+Release Version (SEG) 100.00.01.07
+SMP     Version (SEG) 100.00.07.30
+--------------------------------------------------------------------------------
+1. Update SMP 100.00.07.30
+
+--------------------------------------------------------------------------------
+Release Version (SEG) 100.00.01.07
+SMP     Version (SEG) 100.00.07.01
+--------------------------------------------------------------------------------
+1. Update SMP 100.00.07.01
+
+--------------------------------------------------------------------------------
+Release Version (SEG) 100.00.01.07
+SMP     Version (SEG) 100.00.06.15
+--------------------------------------------------------------------------------
+1. Update SMP 100.00.06.15
+
+--------------------------------------------------------------------------------
+Release Version (SEG) 100.00.01.07
+--------------------------------------------------------------------------------
+1. Capsule header's image size is modified to be "BIOS size" + "Capsule header size".
+2. Capsule header's flag is preset to 0x00050000, but is set to 0x00000000 if the argument "-instant" is input.
+
+--------------------------------------------------------------------------------
+Release Version (SEG) 100.00.01.05
+--------------------------------------------------------------------------------
+1. Fix the bug that "-opath" does not function properly.
+2. Add support to the situation when working directory is not the same as the tool's or signtool's directory.
+3. Add support to specify signtool's directory. (by option "-signtool")
+4. Modify not to set the output signed image read-only.
+	
+--------------------------------------------------------------------------------
+Release Version (SEG) 100.00.01.04
+--------------------------------------------------------------------------------
+1. Add support to use password. (by option "-pass")
+	
+--------------------------------------------------------------------------------
+Release Version (SEG) 100.00.01.03
+--------------------------------------------------------------------------------
+1. Add new feature to insert capsule header to the header of signed image. (by option "-capsuleheader")
+2. Add support for cryptographic service provider. 
+  (New parameters: "-c <Cryptographic Service Provider>", "-k <Private key container name>", and "-f <Signing certificate in a file>").
+	
+--------------------------------------------------------------------------------
+Release Version (SEG) 100.00.01.02
+--------------------------------------------------------------------------------
+1. Modification are made to meet the additional command.ini.
+
+--------------------------------------------------------------------------------
+Release Version (SEG) 100.00.01.01
+--------------------------------------------------------------------------------
+Bug:
+1. Add extra buffer for driver that "SignEFI" needs.
+
+--------------------------------------------------------------------------------
+Release Version (SEG) 100.00.01.00
+--------------------------------------------------------------------------------
+Features:
+1. Add "-x32" to support 32bit image.
+	
+--------------------------------------------------------------------------------
+Release Version (SEG) 100.00.00.01
+--------------------------------------------------------------------------------
+Features:
+1. Modify the way data insertion to execution file from many templates with different space preservation to dynamical section insertion to a single template.
+
+--------------------------------------------------------------------------------
+Release Version (SEG) 100.00.00.00
+--------------------------------------------------------------------------------
+Initial version
